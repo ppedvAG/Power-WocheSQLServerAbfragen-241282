@@ -51,6 +51,13 @@ FROM
 	RIGHT = INNER JOIN  + alle Werte von rechts
 	FULL = + inner join +
 
+
+WHERE
+GROUP BY
+ORDER BY
+
+
+
 select '100' as '200'
 select '100' , '200'
 
