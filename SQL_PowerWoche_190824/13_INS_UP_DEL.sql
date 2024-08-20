@@ -74,6 +74,91 @@ commit --wenn korrekt
 
 ---UPDATE über mehr Tabellen
 
+--Kopie
+select * into o1 from orders
+
+
+--erhöhe die Frachtkosten um 10 , bei den Best der Kunden aus GER
+
+update o1 set freight = freight *1.1
+--select orderid, o1.customerid, freight, country 
+from 
+	o1 inner join customers c	on 
+									c.CustomerID=o1.customerid
+where 
+	   c.country = 'Germany'
+
+select * into c1 from customers
+
+select * from c1
+
+--Ergänze den Firmennamen um ein X am Ende, ---c1
+--wenn die Frachtkosten über 100 lagen  ---orders
+
+Alfreds Futterkiste
+Alfreds FutterkisteX
+
+
+update c1 set companyname = companyname+'X'
+--Select *
+from c1 
+				inner join orders o	ON c1.CustomerID=o.CustomerID
+where 
+		freight > 100	--187
+
+
+--delete 
+
+delete tabelle where sp = Wert
+
+delete from tabelle where sp = wert
+
+
+select * from o1
+
+
+delete from o1 where employeeid = 5
+
+--Lösche alle aus o1 deren Frachtkosten unter 1 liegen
+
+delete 
+--select *
+from o1 where freight < 1
+
+--lösche alle DS aus o1 die das Product Chai enthalten
+delete from  o1
+--select distinct o1.orderid 
+from 
+o1 inner join  [Order Details] od on od.OrderID=o1.OrderID
+   inner join Products p on p.ProductID=od.ProductID
+ where 
+	p.ProductName = 'Chai'
+
+
+select * from o1
+
+--lösche die Frachtkosten von der orderid 10249 aus o1
+
+update o1 set freight = NULL  --where sp is null
+where orderid = 10249
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
