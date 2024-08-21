@@ -144,6 +144,12 @@
           <AssociatedConnUserName />
           <FullPath>17_Function.sql</FullPath>
         </FileNode>
+        <FileNode Name="18_Konstruktionen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18_Konstruktionen.sql</FullPath>
+        </FileNode>
         <FileNode Name="Recap Tag2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
