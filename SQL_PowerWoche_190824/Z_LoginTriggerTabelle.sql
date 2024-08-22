@@ -7,7 +7,7 @@ SELECT
 	EVENTDATA().value('(/EVENT_INSTANCE/ObjectName)[1]','nvarchar(max)')  , Getdate(),
 	EVENTDATA().value('(/EVENT_INSTANCE/TSQLCommand/CommandText)[1]','nvarchar(max)') ,
 	EVENTDATA().value('(/EVENT_INSTANCE/LoginName)[1]','nvarchar(max)'),
-	Suser_Name(), APP_Name() into 
+	Suser_Name(), APP_Name() 
 GO
 
 	

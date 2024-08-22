@@ -150,6 +150,18 @@
           <AssociatedConnUserName />
           <FullPath>18_Konstruktionen.sql</FullPath>
         </FileNode>
+        <FileNode Name="20_bad View.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20_bad View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="30_Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>30_Indizes.sql</FullPath>
+        </FileNode>
         <FileNode Name="ReCap Tag 4.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
@@ -169,8 +181,8 @@
           <FullPath>Recap Tag3.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_LoginTriggerTabelle.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Z_LoginTriggerTabelle.sql</FullPath>
         </FileNode>
