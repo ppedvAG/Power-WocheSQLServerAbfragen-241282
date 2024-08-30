@@ -72,6 +72,12 @@
           <AssociatedConnUserName />
           <FullPath>05_EXCEPT.sql</FullPath>
         </FileNode>
+        <FileNode Name="05_Partitionierung.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>05_Partitionierung.sql</FullPath>
+        </FileNode>
         <FileNode Name="06_JOINs.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN11-PL2\SQLKURS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>WIN11-PL2\SQLKURS</AssociatedConnSrvName>
@@ -185,6 +191,36 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>40_MAXDOP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="50_Trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>50_Trigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="51_DBDesign.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>51_DBDesign.sql</FullPath>
+        </FileNode>
+        <FileNode Name="60_CTE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>60_CTE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="70_bsp_Summe bilden Tabelle generieren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>70_bsp_Summe bilden Tabelle generieren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="71_Summe bilden Löungen.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>71_Summe bilden Löungen.sql</FullPath>
         </FileNode>
         <FileNode Name="IX Suche beobachten.sql">
           <AssociatedConnectionMoniker />
