@@ -162,11 +162,47 @@
           <AssociatedConnUserName />
           <FullPath>30_Indizes.sql</FullPath>
         </FileNode>
+        <FileNode Name="31_bad Pocedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>31_bad Pocedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="35_Pläne im RAM.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>35_Pläne im RAM.sql</FullPath>
+        </FileNode>
+        <FileNode Name="35_Pläne, die nicht wiederverwedent werden.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>35_Pläne, die nicht wiederverwedent werden.sql</FullPath>
+        </FileNode>
+        <FileNode Name="40_MAXDOP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>40_MAXDOP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IX Suche beobachten.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IX Suche beobachten.sql</FullPath>
+        </FileNode>
         <FileNode Name="ReCap Tag 4.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ReCap Tag 4.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Recap Tag 5.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Recap Tag 5.sql</FullPath>
         </FileNode>
         <FileNode Name="Recap Tag2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
@@ -179,6 +215,12 @@
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Recap Tag3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_DiagnosticViews.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Z_DiagnosticViews.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_LoginTriggerTabelle.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
